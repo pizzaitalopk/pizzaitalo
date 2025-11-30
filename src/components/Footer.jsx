@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-t from-black via-neutral-900 to-black text-gray-300 py-16">
+    <footer className="bg-linear-to-t from-black via-neutral-900 to-black text-gray-300 py-16">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-1 md:grid-cols-3 gap-10">
 
         {/* --- About / Logo --- */}

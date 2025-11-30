@@ -5,13 +5,16 @@ import Gallery from "./pages/Gallery";
 import Order from "./pages/Order";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <>
    
 <Navbar/>
+  <ScrollToTop/>
       <Routes>
+      
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/gallery" element={<Gallery />} />
