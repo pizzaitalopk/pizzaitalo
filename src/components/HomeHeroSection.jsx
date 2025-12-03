@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import banner1 from "../assets/images/banner1-min.jpg";
-import banner2 from "../assets/images/banner2-min.jpg";
-import banner3 from "../assets/images/banner3-min.jpeg";
-import banner4 from "../assets/images/banner4-min.jpg";
+import banner1 from "../assets/images/banner/banner1.webp";
+import banner2 from "../assets/images/banner/banner2.webp";
+import banner3 from "../assets/images/banner/banner3.webp";
+import banner4 from "../assets/images/banner/banner4.webp";
 
 const HomeHeroSection = () => {
   // Preload images for faster transition
@@ -37,7 +37,7 @@ const HomeHeroSection = () => {
     },
   ];
 
-  const durations = [5000, 7000, 6000, 8000]; // slide durations
+  const durations = [3000, 3000, 3000 , 4000]; // slide durations
   const [index, setIndex] = useState(0);
 
   useEffect(() => {

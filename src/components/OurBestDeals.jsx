@@ -98,6 +98,9 @@ const OurBestDeals = () => {
       ))}
     </div>
   </div>
+   <div className='flex justify-center items-center mt-15'>
+    <Link to={'/menu'} className='border- border-amber-400 text-black bg-amber-400 rounded-md px-5 py-2 hover:bg-amber-500  font-semibold'>Explore Deals</Link>
+   </div>
 </section>
 
   );

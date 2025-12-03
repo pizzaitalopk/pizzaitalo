@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import HomeHeroSection from '../components/HomeHeroSection'
 import HomeAboutSection from '../components/HomeAboutSection'
 import HomeGuideSection from '../components/HomeGuideSection'

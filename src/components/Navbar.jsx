@@ -17,15 +17,14 @@ const Navbar = () => {
     ${isActive ? "bg-gray-800 text-white shadow-sm" : "text-gray-200 hover:bg-black/70 hover:bg-black/50 hover:text-white"}`;
 
   return (
-    <nav className="w-full bg-black-gradient-to-b from-black to-black/90 backdrop-blur-xl shadow-lg sticky top-0 z-50 text-white">
+    <nav className="w-full bg-black-gradient-to-b from-black to-black/90 backdrop-blur-xl shadow-lg sticky top-0 z-50 text-white py-1">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
         {/* Logo */}
         <Link
           to="/"
-          className="flex items-center gap-2 text-xl font-extrabold text-amber-400 hover:text-amber-300 transition"
+          className="flex items-center  text-xl font-extrabold text-amber-400 hover:text-amber-300 transition"
         >
-          <Pizza className="h-8 w-8 text-red-500" />
-          PIZZA ITALO
+         <img src="logo.png" alt="pizza italo" className="w-18 h-18 rounded-full" /> Pizza Italo
         </Link>
 
         {/* Desktop Links */}
