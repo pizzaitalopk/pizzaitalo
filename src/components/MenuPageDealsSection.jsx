@@ -13,7 +13,7 @@ const MenuPageDealsSection = () => {
   const DealCard = ({ deal }) => (
     <div className="bg-gradient-to-br from-neutral-900 via-black to-neutral-900 rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
       <div className="border-t-8 border-yellow-400">
-        <img src={deal.image} alt={deal.title} className="w-full h-48 object-cover" />
+        <img src={deal.image} alt={deal.title} className="w-full h-52  object-cover" />
       </div>
       <div className="p-6 flex flex-col items-start">
         <h3 className="text-2xl font-bold text-white mb-2">{deal.title}</h3>

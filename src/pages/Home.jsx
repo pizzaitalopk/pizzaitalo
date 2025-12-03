@@ -10,6 +10,7 @@ import HomeTestimonialsSection from '../components/HomeTestimonialsSection'
 const Home = () => {
   return (
     <>
+    
 <HomeHeroSection/>
 <HomeAboutSection/>
 <HomeGuideSection/>
