@@ -13,8 +13,8 @@ import mubashirelahi from '../assets/images/mubashirelahi.png';
 const testimonials = [
   { name: 'Arqam Saleem', review: 'Pizza Italo is going pathetic day by day. Service is awful.', img: arqamsaleem },
   { name: 'Azeem Azeem', review: 'The pizza was delicious. Service excellent.', img: azeemazeem },
-  { name: 'Muhammad Fehmeed', review: 'Very bad food, cheap oil used.', img: muhammadfaheem },
-  { name: 'Ok Bro', review: 'Very bad service. Customer not considered.', img: okbro },
+  { name: 'Muhammad Fehmeed', review: 'Very Good food, Taste was Excellent.', img: muhammadfaheem },
+  { name: 'Ok Bro', review: 'Very Good service. Customer are considered.', img: okbro },
   { name: 'Azeem Bodla', review: 'Pizza was delicious. Service excellent.', img: azeembodla },
   { name: 'Rao Amir', review: 'Taste is good, price reasonable. Staff helpful.', img: raoamir },
   { name: 'Ahmad Abrar', review: 'Flavor varies with each visit.', img: ahmadabrar },

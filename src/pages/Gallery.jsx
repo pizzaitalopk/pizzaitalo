@@ -57,7 +57,7 @@ const Gallery = () => {
             Pizza Italo
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-2xl text-gray-200">
-            Bahawalnagar’s most beloved fast food restaurant — serving pizzas, burgers
+            Bahawalnagar’s most beloved fast food restaurant — serving Pizzas, Burgers
             and fast food items with unmatched taste & quality.
           </p>
         </div>
@@ -85,8 +85,8 @@ const Gallery = () => {
           </p>
         </div>
 
-        <div className="rounded-xl overflow-hidden shadow-xl bg-white flex items-center justify-center p-4">
-          <img src={'/logo.png'} className="w-64 object-contain" />
+        <div className="rounded-xl overflow-hidden shadow-xl bg-black flex items-center justify-center p-4">
+          <img src={'logo.png'} className="w-64 object-contain" />
         </div>
       </div>
       {/* GALLERY SECTION – MIXED SIZE IMAGES + BANNERS */}

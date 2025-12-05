@@ -11,7 +11,7 @@ const MenuBanner = () => {
           OUR MENU
         </h1>
         <p className="text-lg md:text-xl text-gray-300 mb-1">
-          Explore a wide range of delicious pizzas, burgers, cakes, and more. 
+          Explore a wide range of delicious <span className="text-yellow-300 font-bold">Pizzas</span>, <span className="text-yellow-300 font-bold">Burgers</span>, <span className="text-yellow-300 font-bold">Cakes</span>, and more. 
           Choose your favorites and enjoy the ultimate dining experience.
         </p>
 

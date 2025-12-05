@@ -63,7 +63,7 @@ const Footer = () => {
       href="mailto:info@pizzaitalo.site"
       className="hover:underline"
     >
-      info@pizzaitalo.site
+     pizzaitalo.pk@gmail.com
     </a>
   </div>
 </div>
