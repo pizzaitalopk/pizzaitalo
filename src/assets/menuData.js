@@ -1,30 +1,30 @@
 // menuData.js
-import deal1 from "../assets/images/deals/deal1.jpg";
+import deal1 from "../assets/images/normal.png";
 import deal2 from "../assets/images/deals/deal2.jpg";
 import deal3 from "../assets/images/deals/deal3.jpg";
 import deal4 from "../assets/images/deals/deal4.jpg";
-import deal5 from "../assets/images/deal1.png";
-import deal6 from "../assets/images/deal1.png";
-import deal7 from "../assets/images/deal1.png";
-import deal8 from "../assets/images/deal1.png";
-import deal9 from "../assets/images/deal1.png";
-import deal10 from "../assets/images/deal1.png";
-import deal11 from "../assets/images/deal1.png";
-import deal12 from "../assets/images/deal1.png";
+import deal5 from "../assets/images/deals/deal5.jpg";
+import deal6 from "../assets/images/deals/deal6.jpg";
+import deal7 from "../assets/images/deals/deal7.jpg";
+import deal8 from "../assets/images/deals/deal8.jpg";
+import deal9 from "../assets/images/deals/deal9.jpg";
+import deal10 from "../assets/images/deals/deal10.jpg";
+import deal11 from "../assets/images/deals/deal11.jpg";
+import deal12 from "../assets/images/deals/deal12.jpg";
 
-import extradeal1 from "../assets/images/deal1.png";
-import extradeal2 from "../assets/images/deal1.png";
-import extradeal3 from "../assets/images/deal1.png";
-import extradeal4 from "../assets/images/deal1.png";
-import extradeal5 from "../assets/images/deal1.png";
-import extradeal6 from "../assets/images/deal1.png";
-import extradeal7 from "../assets/images/deal1.png";
-import extradeal8 from "../assets/images/deal1.png";
-import extradeal9 from "../assets/images/deal1.png";
-import extradeal10 from "../assets/images/deal1.png";
-import extradeal11 from "../assets/images/deal1.png";
-import extradeal12 from "../assets/images/deal1.png";
-import extradeal13 from "../assets/images/deal1.png";
+import extradeal1 from "../assets/images/deals/other1.jpg";
+import extradeal2 from "../assets/images/deals/other2.jpg";
+import extradeal3 from "../assets/images/deals/other3.jpg";
+import extradeal4 from "../assets/images/deals/other4.jpg";
+import extradeal5 from "../assets/images/deals/other5.jpg";
+import extradeal6 from "../assets/images/deals/other6.jpg";
+import extradeal7 from "../assets/images/deals/other7.jpg";
+import extradeal8 from "../assets/images/deals/other8.jpg";
+import extradeal9 from "../assets/images/deals/other9.jpg";
+import extradeal10 from "../assets/images/deals/other10.jpg";
+import extradeal11 from "../assets/images/items_imgs/pizza_burger.png";
+import extradeal12 from "../assets/images/deals/other13.jpg";
+import extradeal13 from "../assets/images/deals/other12.jpg";
 
 export const deals = [
   {
