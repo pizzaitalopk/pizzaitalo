@@ -1,5 +1,5 @@
 // menuData.js
-import deal1 from "../assets/images/normal.png";
+import deal1 from "../assets/images/2.png";
 import deal2 from "../assets/images/deals/deal2.jpg";
 import deal3 from "../assets/images/deals/deal3.jpg";
 import deal4 from "../assets/images/deals/deal4.jpg";
