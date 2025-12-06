@@ -1,4 +1,5 @@
 import React from "react";
+import Seo from '../components/Seo';
 import { MapPin, Phone, Clock, Star } from "lucide-react";
 
 // Import gallery images
@@ -44,7 +45,19 @@ const images = [
 
 const Gallery = () => {
   return (
-    <section className="w-full bg-black text-white">
+    <>
+     {/* Page-level SEO */}
+      <Seo 
+        title="Gallery | Pizza Italo"
+        description="Explore our Pizza Italo restaurant gallery with photos of our delicious pizzas, interiors, and ambience."
+        keywords="pizza gallery, restaurant photos, Pizza Italo, Italian pizza, food photos"
+        url="https://pizza-italo.vercel.app/gallery"
+        image="/logo.png"  // OG image
+      />
+
+      {/* PAGE CONTENT */}
+
+        <section className="w-full bg-black text-white">
 
       {/* HERO SECTION WITH BANNER */}
       <div className="relative w-full h-[60vh] md:h-[70vh] overflow-hidden">
@@ -127,6 +140,7 @@ const Gallery = () => {
         "Good Food, Good Mood — Experience the True Taste of Bahawalnagar!"
       </div>
     </section>
+    </>
   );
 };
 

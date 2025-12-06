@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Select from "react-select";
 import { deals, extraDeals } from "../assets/menuData";
 import { otherMenuItems } from "../assets/menuData";
-
+import Seo from '../components/Seo';
 const Order = () => {
   // Prepare options for react-select
   const allItems = [
@@ -69,9 +69,22 @@ const Order = () => {
   };
 
   return (
-    <section className="bg-gray-900 min-h-screen py-16">
+
+    <>
+ {/* Page-level SEO */}
+      <Seo
+        title="Order Now | Pizza Italo"
+        description="Place your Pizza Italo order online! Select your favorite pizzas, burgers, and fast food items, and get it delivered quickly."
+        keywords="order pizza, online order, pizza italo, fast food, burgers, Italian pizza , order online from pizza italo , Pizza Italo in bahawalnagar"
+        url="https://pizza-italo.vercel.app/order"
+        image="/logo.png"
+      />
+
+      {/* Page Content */}
+
+       <section className="bg-gray-900 min-h-screen py-16">
       {/* Banner */}
-      <div className="bg-gradient-to-r from-black via-neutral-900 to-black py-12 text-center mb-12">
+      <div className="bg-linear-to-r from-black via-neutral-900 to-black py-12 text-center mb-12">
         <h1 className="text-5xl font-extrabold text-yellow-400">Order Now</h1>
         <p className="text-white mt-2">
           Select your favorite meals and place an order quickly!
@@ -175,6 +188,8 @@ const Order = () => {
         </div>
       </div>
     </section>
+    </>
+ 
   );
 };
 
