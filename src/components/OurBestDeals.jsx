@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Import local images
-import deal1Img from "../assets/images/deals/d1.jpg";
-import deal2Img from "../assets/images/deals/d5.jpg";
-import deal3Img from '../assets/images/deals/d6.jpg';
-import deal4Img from "../assets/images/deals/e2.jpg";
-import deal5Img from '../assets/images/deals/e4.jpg';
-import deal6Img from '../assets/images/deals/e7.jpg';
+import deal1Img from "../assets/images/deals/d1.webp";
+import deal2Img from "../assets/images/deals/d5.webp";
+import deal3Img from '../assets/images/deals/d6.webp';
+import deal4Img from "../assets/images/deals/e2.webp";
+import deal5Img from '../assets/images/deals/e4.webp';
+import deal6Img from '../assets/images/deals/e7.webp';
 
 const deals = [
   {

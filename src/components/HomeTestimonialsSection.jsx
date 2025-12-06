@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 
 // Reviewer images
-import arqamsaleem from '../assets/images/arqamsaleem.png';
-import azeemazeem from '../assets/images/azeemazeem.png';
-import muhammadfaheem from '../assets/images/muhammadfaheem.png';
-import okbro from '../assets/images/okbro.png';
-import azeembodla from '../assets/images/azeembodla.png';
-import raoamir from '../assets/images/raoamir.png';
-import ahmadabrar from '../assets/images/ahmadabrar.png';
-import mubashirelahi from '../assets/images/mubashirelahi.png';
+import arqamsaleem from '../assets/images/arqamsaleem.webp';
+import azeemazeem from '../assets/images/azeemazeem.webp';
+import muhammadfaheem from '../assets/images/muhammadfaheem.webp';
+import okbro from '../assets/images/okbro.webp';
+import azeembodla from '../assets/images/azeembodla.webp';
+import raoamir from '../assets/images/raoamir.webp';
+import ahmadabrar from '../assets/images/ahmadabrar.webp';
+import mubashirelahi from '../assets/images/mubashirelahi.webp';
 
 const testimonials = [
   { name: 'Arqam Saleem', review: 'Pizza Italo is going pathetic day by day. Service is awful.', img: arqamsaleem },

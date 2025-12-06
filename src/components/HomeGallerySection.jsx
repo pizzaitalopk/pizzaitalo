@@ -2,16 +2,16 @@ import React, { useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 // Import local images (example: g1.jpg to g10.jpg)
-import g1 from "../assets/images/menu_gallery/g1.jpg";
-import g2 from "../assets/images/menu_gallery/g2.jpg";
-import g3 from "../assets/images/menu_gallery/g3.jpg";
-import g4 from "../assets/images/menu_gallery/g4.jpg";
-import g14 from "../assets/images/menu_gallery/g14.jpg";
-import g6 from "../assets/images/menu_gallery/g6.jpg";
-import g7 from "../assets/images/menu_gallery/g7.jpg";
-import g8 from "../assets/images/menu_gallery/g8.jpg";
-import g9 from "../assets/images/menu_gallery/g9.jpg";
-import g10 from "../assets/images/menu_gallery/g10.jpg";
+import g1 from "../assets/images/menu_gallery/g1.webp";
+import g2 from "../assets/images/menu_gallery/g2.webp";
+import g3 from "../assets/images/menu_gallery/g3.webp";
+import g4 from "../assets/images/menu_gallery/g4.webp";
+import g14 from "../assets/images/menu_gallery/g14.webp";
+import g6 from "../assets/images/menu_gallery/g6.webp";
+import g7 from "../assets/images/menu_gallery/g7.webp";
+import g8 from "../assets/images/menu_gallery/g8.webp";
+import g9 from "../assets/images/menu_gallery/g9.webp";
+import g10 from "../assets/images/menu_gallery/g10.webp";
 
 const images = [g1, g2, g3, g4, g14, g6, g7, g8, g9, g10];
 
