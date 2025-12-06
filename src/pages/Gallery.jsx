@@ -51,7 +51,7 @@ const Gallery = () => {
         title="Gallery | Pizza Italo"
         description="Explore our Pizza Italo restaurant gallery with photos of our delicious pizzas, interiors, and ambience."
         keywords="pizza gallery, restaurant photos, Pizza Italo, Italian pizza, food photos"
-        url="https://pizza-italo.vercel.app/gallery"
+        url="https://pizzaitalo.food/gallery"
         image="/logo.png"  // OG image
       />
 

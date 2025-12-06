@@ -16,7 +16,7 @@ const Home = () => {
         title="Pizza Italo - The Taste You Love"
         description="Welcome to Pizza Italo — serving fresh, hot Italian pizza delivered fast. Explore our menu and order your favorite pizza online!"
         keywords="pizza italo, home, italian pizza, food delivery, online order , bahawalnagar , Pizza Italo in bahawalnagar"
-        url="https://pizza-italo.vercel.app/"
+        url="https://pizzaitalo.food/"
         image="/logo.png"   // OG image
       />
 

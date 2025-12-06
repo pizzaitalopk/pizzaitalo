@@ -5,7 +5,7 @@ export default function Seo({
   description = "Bahawalnagar’s favorite pizza & fast food restaurant.",
   keywords = "pizza, italian pizza, burgers, fast food",
   image = "/logo.png",
-  url = "https://pizza-italo.vercel.app"
+  url = "https://pizzaitalo.food/"
 }) {
   return (
     <Helmet>

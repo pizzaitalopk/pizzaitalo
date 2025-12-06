@@ -76,7 +76,7 @@ const Order = () => {
         title="Order Now | Pizza Italo"
         description="Place your Pizza Italo order online! Select your favorite pizzas, burgers, and fast food items, and get it delivered quickly."
         keywords="order pizza, online order, pizza italo, fast food, burgers, Italian pizza , order online from pizza italo , Pizza Italo in bahawalnagar"
-        url="https://pizza-italo.vercel.app/order"
+        url="https://pizzaitalo.food/order"
         image="/logo.png"
       />
 
