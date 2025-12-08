@@ -94,7 +94,7 @@ const Gallery = () => {
           </p>
           <p className="flex items-center gap-3 text-gray-300">
             <Phone className="text-yellow-400" />
-            <span className="text-lg">+92 333 3110002</span>
+            <span className="text-lg">+92 325 3110002</span>
           </p>
         </div>
 

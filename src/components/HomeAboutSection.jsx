@@ -56,12 +56,12 @@ const HomeAboutSection = () => {
           <div className="flex items-center gap-3">
   <Phone className="h-6 w-6 text-amber-400" />
   <a 
-    href="https://wa.me/923333110002" 
+    href="https://wa.me/923253110002" 
     target="_blank" 
     rel="noopener noreferrer"
     className="hover:text-amber-400 transition"
   >
-    +92 333 3110002
+    +92 325 3110002
   </a>
 </div>
 

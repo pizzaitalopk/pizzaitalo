@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-col items-start">
           <h2 className="text-2xl font-extrabold text-yellow-400 mb-4">Pizza Italo</h2>
           <p className="text-gray-400 mb-4">
-            Bahawalnagar’s most loved pizza restaurant. Delicious pizzas, burgers, and combos with original taste since 2005.
+            Bahawalnagar’s most loved pizza restaurant. Delicious Pizzas, Burgers, and combos with original taste since 2005.
           </p>
           <div className="flex space-x-4">
             <a href="https://www.facebook.com/profile.php?id=100063775075566" target="_blank" rel="noopener noreferrer">
@@ -20,9 +20,9 @@ const Footer = () => {
             <a href="https://www.instagram.com/pizzaitalosamnabad/" target="_blank" rel="noopener noreferrer">
               <Instagram className="h-6 w-6 hover:text-yellow-400 transition duration-200" />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
               <Twitter className="h-6 w-6 hover:text-yellow-400 transition duration-200" />
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -47,12 +47,12 @@ const Footer = () => {
   <div className="flex items-center gap-3 hover:text-yellow-400 transition duration-200">
     <Phone className="h-5 w-5 text-yellow-400" />
     <a
-      href="https://wa.me/923333110002"
+      href="https://wa.me/923253110002"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:underline"
     >
-      +92 333 3110002 (WhatsApp)
+      03253110002 (WhatsApp)
     </a>
   </div>
 
@@ -82,7 +82,7 @@ const Footer = () => {
 
       {/* --- Bottom Bar --- */}
       <div className="mt-12 border-t border-gray-700 pt-6 text-center text-gray-500 text-sm">
-        &copy; {new Date().getFullYear()} Pizza Italo. All rights reserved. Developed by <a href="https://abubakarme.vercel.app" target="_blank" rel="noopener noreferrer" className="text-yellow-400 transition duration-200">Abubakar</a>.
+        &copy; {new Date().getFullYear()} Pizza Italo. All rights reserved.
       </div>
     </footer>
   );

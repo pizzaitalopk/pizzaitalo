@@ -64,7 +64,7 @@ const Order = () => {
       "\n"
     )}\n\nTotal: RS: ${calculateTotal()}/-`;
 
-    const url = `https://wa.me/923333110002?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/923253110002?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
 

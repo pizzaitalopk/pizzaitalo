@@ -14,7 +14,7 @@ const deals = [
     title: 'Special Small Pizza Combo',
     description: 'A perfect combo for one person.',
     items: ['1 Special Small Pizza', 'Fries', '500ml Drink'],
-    price: 'RS: 660/-',
+    price: 'RS: 670/-',
     img: deal1Img,
   },
   {
@@ -35,33 +35,33 @@ const deals = [
     title: 'Wow Deal',
     description: 'A family feast for everyone.',
     items: ['1 Special Large Pizza', '10 Hot Wings', '10 Nuggets', 'Lrg Fries', '1.5 Ltr Drink'],
-    price: 'RS: 2650/-',
+    price: 'RS: 2799/-',
     img: deal4Img,
   },
   {
     title: 'Zinger Combo',
     description: 'Spicy and crunchy delight.',
     items: ['Zinger Burger', 'Fries', 'Drink'],
-    price: 'RS: 499/-',
+    price: 'RS: 530/-',
     img: deal5Img,
   },
   {
     title: 'Kiddy Meal 1',
     description: 'Fun meal for the little ones.',
     items: ['5 Pcs Hot Wings', 'Fries', 'Half Ltr Drink'],
-    price: 'RS: 420/-',
+    price: 'RS: 430/-',
     img: deal6Img,
   },
 ];
 
 const OurBestDeals = () => {
-  const sendToWhatsApp = (deal) => {
-    const message = `Hello! I want to order the following deal:\n\n${deal.title}\nItems:\n${deal.items.join(
-      '\n'
-    )}\nPrice: ${deal.price}`;
-    const url = `https://wa.me/923333110002?text=${encodeURIComponent(message)}`;
-    window.open(url, '_blank');
-  };
+  // const sendToWhatsApp = (deal) => {
+  //   const message = `Hello! I want to order the following deal:\n\n${deal.title}\nItems:\n${deal.items.join(
+  //     '\n'
+  //   )}\nPrice: ${deal.price}`;
+  //   const url = `https://wa.me/923333110002?text=${encodeURIComponent(message)}`;
+  //   window.open(url, '_blank');
+  // };
 
   return (
 <section className="w-full bg-linear-to-br from-black via-neutral-900 to-black py-20">
@@ -87,12 +87,12 @@ const OurBestDeals = () => {
               ))}
             </ul>
             <p className="text-yellow-400 font-semibold mb-4 text-lg">{deal.price}</p>
-            <button
+            {/* <button
               onClick={() => sendToWhatsApp(deal)}
               className="px-6 py-2 bg-red-600 hover:bg-red-700 rounded-full font-semibold text-white shadow-lg transition duration-200 cursor-pointer"
             >
               ORDER NOW
-            </button>
+            </button> */}
           </div>
         </div>
       ))}

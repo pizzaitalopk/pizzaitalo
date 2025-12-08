@@ -3,24 +3,24 @@ import { otherMenuItems } from "../assets/menuData"; // path to your full data
 
 const MenuOtherItemsSection = () => {
   // WhatsApp order function
-  const sendToWhatsApp = (item) => {
-    const message = `Hello! I want to order the following item:\n\n${item.title}\nPrice: RS: ${item.price}/-`;
-    const url = `https://wa.me/923333110002?text=${encodeURIComponent(message)}`;
-    window.open(url, "_blank");
-  };
+  // const sendToWhatsApp = (item) => {
+  //   const message = `Hello! I want to order the following item:\n\n${item.title}\nPrice: RS: ${item.price}/-`;
+  //   const url = `https://wa.me/923333110002?text=${encodeURIComponent(message)}`;
+  //   window.open(url, "_blank");
+  // };
 
   // Reusable Card for each menu item
   const ItemCard = ({ item }) => (
-    <div className="bg-gradient-to-br from-neutral-900 via-black to-neutral-900 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+    <div className="bg-linear-to-br from-neutral-900 via-black to-neutral-900 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
       <div className="p-4 flex flex-col items-start">
         <h3 className="text-xl font-bold text-white mb-2">{item.title}</h3>
         <p className="text-yellow-400 font-semibold mb-4">RS: {item.price}/-</p>
-        <button
+        {/* <button
           onClick={() => sendToWhatsApp(item)}
           className="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-full text-white font-semibold shadow transition duration-200"
         >
           ORDER NOW
-        </button>
+        </button> */}
       </div>
     </div>
   );

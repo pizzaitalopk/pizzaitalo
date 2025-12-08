@@ -22,7 +22,7 @@ const steps = [
     heading: 'Confirm Order',
     desc: 'Click order and send your selection via WhatsApp.',
     icon: Send,
-    link: 'https://wa.me/923333110002',
+    link: 'https://wa.me/923253110002',
   },
 ];
 

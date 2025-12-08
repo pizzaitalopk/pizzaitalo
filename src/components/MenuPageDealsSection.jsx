@@ -2,13 +2,13 @@ import React from "react";
 import { deals, extraDeals } from "../assets/menuData"; // adjust path
 
 const MenuPageDealsSection = () => {
-  const sendToWhatsApp = (deal) => {
-    const message = `Hello! I want to order the following deal:\n\n${deal.title}\nItems:\n${deal.items?.join(
-      "\n"
-    ) || "-"}\nPrice: RS: ${deal.price}/-`;
-    const url = `https://wa.me/923333110002?text=${encodeURIComponent(message)}`;
-    window.open(url, "_blank");
-  };
+  // const sendToWhatsApp = (deal) => {
+  //   const message = `Hello! I want to order the following deal:\n\n${deal.title}\nItems:\n${deal.items?.join(
+  //     "\n"
+  //   ) || "-"}\nPrice: RS: ${deal.price}/-`;
+  //   const url = `https://wa.me/923253110002?text=${encodeURIComponent(message)}`;
+  //   window.open(url, "_blank");
+  // };
 
 const DealCard = ({ deal }) => (
   <div className="bg-black rounded-xl shadow-xl overflow-hidden border border-neutral-800 hover:scale-105 transition-transform duration-300">
@@ -53,12 +53,12 @@ const DealCard = ({ deal }) => (
       </p>
 
       {/* Button */}
-      <button
+      {/* <button
         onClick={() => sendToWhatsApp(deal)}
         className="w-full py-3 bg-red-600 hover:bg-red-700 rounded-full text-white font-semibold text-lg shadow-md"
       >
         ORDER NOW
-      </button>
+      </button> */}
     </div>
   </div>
 );
