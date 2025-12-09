@@ -538,13 +538,22 @@ export const otherMenuItems = [
   {
     segment: "Italo Bar BQ",
     items: [
-      { id: 1, title: "Kalmi Tikka (4 Pcs)", price: 370 },
-      { id: 2, title: "Pizza Kabab (4 Pcs)", price: 450 },
-      { id: 3, title: "Chicken Kabab (4 Pcs)", price: 370 },
-      { id: 4, title: "Sheesh Taouq (8 Pcs)", price: 450 },
-      { id: 7, title: "Badami Cheese (8 Pcs)", price: 470 },
-      { id: 8, title: "Kastoori Botti (8 Pcs)", price: 450 },
-      { id: 9, title: "Makhmali Botti (8 Pcs)", price: 450 },
+      { id: 1, title: "Kalmi Tikka (4 Pcs) Half", price: 370 },
+      { id: 2, title: "Kalmi Tikka (4 Pcs) Full", price: 700 },
+      { id: 3, title: "Pizza Kabab (4 Pcs) Half", price: 450 },
+      { id: 4, title: "Pizza Kabab (4 Pcs) Full", price: 850 },
+      { id: 5, title: "Chicken Kabab (4 Pcs) Half", price: 370 },
+      { id: 6, title: "Chicken Kabab (4 Pcs) Full", price: 700 },
+      { id: 7, title: "Sheesh Taouq (8 Pcs) Half", price: 450 },
+      { id: 8, title: "Sheesh Taouq (8 Pcs) Full", price: 850 },
+      { id: 9, title: "Badami Cheese (8 Pcs) Half", price: 470 },
+      { id: 10, title: "Badami Cheese (8 Pcs) Full", price: 890 },
+      { id: 11, title: "Kastoori Botti (8 Pcs) Half", price: 450 },
+      { id: 12, title: "Kastoori Botti (8 Pcs) Full", price: 840 },
+      { id: 13, title: "Makhmali Botti (8 Pcs) Half", price: 450 },
+      { id: 14, title: "Makhmali Botti (8 Pcs) Full", price: 840 },
+      { id: 15, title: "Labnani Kabab Half", price: 450 },
+      { id: 16, title: "Labnani Kabab Full", price: 850 },
     ],
   },
   {
@@ -574,6 +583,33 @@ export const otherMenuItems = [
       { id: 5, title: "2.5 ltr drink", price: 280 },
       { id: 6, title: "Small Water bottle", price: 70 },
       { id: 7, title: "Large Water bottle", price: 130 },
+    ],
+  },
+   {
+    segment: "Hot Wings & Nuggets",
+    items: [
+      { id: 1, title: "5 Pc's Hot Wings", price: 280 },
+      { id: 2, title: "10 Pc's Hot Wings", price: 499 },
+      { id: 3, title: "5 Pc's Nuggets", price: 250 },
+      { id: 4, title: "10 Pc's Nuggets", price: 450 },
+      { id: 5, title: "12 Pc's Hot Shot", price: 399 },
+    ],
+  },
+  {
+    segment: "Chicken Pieces",
+    items: [
+      { id: 1, title: "1 Leg Piece Chicken", price: 350 },
+      { id: 2, title: "1 Chest Piece Chicken", price: 399 },
+    ],
+  },
+  {
+    segment: "Savoury Appetizers",
+    items: [
+      { id: 1, title: "Spin Rolls 4pc's + Dip Sauce", price: 420 },
+      { id: 2, title: "6 Pc's Ovan Baked Wings , 4 Pc's BBQ Roll + Dip Sauce and Fries", price: 770 },
+      { id: 3, title: "6 Pc's Ovan Baked Wings", price: 350 },
+      { id: 4, title: "12 Pc's Ovan Baked Wings", price: 599 },
+
     ],
   },
   
