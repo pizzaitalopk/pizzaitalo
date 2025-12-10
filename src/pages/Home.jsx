@@ -8,6 +8,7 @@ import OurBestDeals from '../components/OurBestDeals';
 import HomeGallerySection from '../components/HomeGallerySection';
 import HomeTestimonialsSection from '../components/HomeTestimonialsSection';
 
+
 const Home = () => {
   return (
     <>

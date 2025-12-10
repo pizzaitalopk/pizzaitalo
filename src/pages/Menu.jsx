@@ -11,7 +11,7 @@ const Menu = () => {
       <Seo
         title="Menu | Pizza Italo"
         description="Check out our delicious Pizza Italo menu including pizzas, burgers, and fast food items made fresh daily."
-        keywords="pizza menu, italian pizza, burgers, fast food, Pizza Italo , bahawalnagar , Pizza Italo in bahawalnagar , menu explore"
+        keywords="pizza menu, italian pizza, burgers, fast food, Pizza Italo , bahawalnagar , Pizza Italo in bahawalnagar , menu of Pizza Italo, Pizza Italo menu"
         url="https://pizzaitalo.food/menu"
         image="/logo.png"  // OG image
       />
